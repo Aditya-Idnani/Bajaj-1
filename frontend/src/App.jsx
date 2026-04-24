@@ -28,7 +28,7 @@ export default function App() {
     setResult(null);
 
     try {
-      const response = await fetch('http://localhost:3000/bfhl', {
+      const response = await fetch('/api/bfhl', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dataPayload)
