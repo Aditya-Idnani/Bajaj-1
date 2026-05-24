@@ -37,3 +37,5 @@ The frontend will be exposed at `http://localhost:5173` and communicate with the
 ## Clean Architecture
 There are strictly zero comments in the codebase, adhering to coding rules while retaining descriptive structured organization.
 # Baja-1
+
+We are all set
